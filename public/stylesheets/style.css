@@ -1,0 +1,66 @@
+html{
+  cursor: crosshair;
+  font-family: Avenir;/*subject to change*/
+}
+textarea, select, input, button {
+  outline: none;
+}
+h1,h2,h3,h4{
+  font-family: Arial;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+a{
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover{
+  text-decoration: underline;
+  cursor: none;
+}
+.boxed_button{
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: white;
+  line-height: 40px;
+  vertical-align: center;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.boxed_button:hover{
+  background-color: black;
+  color: white;
+  cursor: none;
+}
+.boxed_field{
+  border: 1px solid black;
+  border-radius: 0;
+  height: 40px;
+  width: 140px;
+  font-size: 14px;
+  font-family: Avenir;
+  padding-left: 10px;
+}
+.boxed_submit{
+  border: 1px solid black;
+  border-radius: 0;
+  height: 40px;
+  width: 150px;
+  font-size: 14px;
+  background-color: white;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: content-box;
+  font-family: Avenir;
+  text-transform: uppercase;
+}
+.boxed_submit:hover{
+  background-color: black;
+  color: white;
+  cursor: none;
+}
